@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54EE83B6205BA4F200EBD87B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EE83B5205BA4F200EBD87B /* AppDelegate.m */; };
+		54EE83B9205BA4F200EBD87B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EE83B8205BA4F200EBD87B /* ViewController.m */; };
+		54EE83BC205BA4F200EBD87B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EE83BA205BA4F200EBD87B /* Main.storyboard */; };
+		54EE83BE205BA4F200EBD87B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54EE83BD205BA4F200EBD87B /* Assets.xcassets */; };
+		54EE83C1205BA4F200EBD87B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EE83BF205BA4F200EBD87B /* LaunchScreen.storyboard */; };
+		54EE83C4205BA4F200EBD87B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EE83C3205BA4F200EBD87B /* main.m */; };
+		54EE83CC205BA76F00EBD87B /* MotionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EE83CB205BA76F00EBD87B /* MotionModule.m */; };
+		54EE83CF205BA7B800EBD87B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EE83CE205BA7B800EBD87B /* CoreMotion.framework */; };
+		54EE83D1205BA7BE00EBD87B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EE83D0205BA7BE00EBD87B /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54EE83B1205BA4F200EBD87B /* SensorChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensorChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EE83B4205BA4F200EBD87B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54EE83B5205BA4F200EBD87B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54EE83B7205BA4F200EBD87B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54EE83B8205BA4F200EBD87B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54EE83BB205BA4F200EBD87B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54EE83BD205BA4F200EBD87B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54EE83C0205BA4F200EBD87B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54EE83C2205BA4F200EBD87B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54EE83C3205BA4F200EBD87B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54EE83CB205BA76F00EBD87B /* MotionModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotionModule.m; sourceTree = "<group>"; };
+		54EE83CE205BA7B800EBD87B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		54EE83D0205BA7BE00EBD87B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		54EE83D2205BA7F300EBD87B /* MotionModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MotionModule.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54EE83AE205BA4F200EBD87B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EE83D1205BA7BE00EBD87B /* CoreLocation.framework in Frameworks */,
+				54EE83CF205BA7B800EBD87B /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54EE83A8205BA4F200EBD87B = {
+			isa = PBXGroup;
+			children = (
+				54EE83CA205BA74700EBD87B /* Sensor */,
+				54EE83B3205BA4F200EBD87B /* SensorChecker */,
+				54EE83B2205BA4F200EBD87B /* Products */,
+				54EE83CD205BA7B800EBD87B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54EE83B2205BA4F200EBD87B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54EE83B1205BA4F200EBD87B /* SensorChecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54EE83B3205BA4F200EBD87B /* SensorChecker */ = {
+			isa = PBXGroup;
+			children = (
+				54EE83B4205BA4F200EBD87B /* AppDelegate.h */,
+				54EE83B5205BA4F200EBD87B /* AppDelegate.m */,
+				54EE83B7205BA4F200EBD87B /* ViewController.h */,
+				54EE83B8205BA4F200EBD87B /* ViewController.m */,
+				54EE83BA205BA4F200EBD87B /* Main.storyboard */,
+				54EE83BD205BA4F200EBD87B /* Assets.xcassets */,
+				54EE83BF205BA4F200EBD87B /* LaunchScreen.storyboard */,
+				54EE83C2205BA4F200EBD87B /* Info.plist */,
+				54EE83C3205BA4F200EBD87B /* main.m */,
+			);
+			path = SensorChecker;
+			sourceTree = "<group>";
+		};
+		54EE83CA205BA74700EBD87B /* Sensor */ = {
+			isa = PBXGroup;
+			children = (
+				54EE83D2205BA7F300EBD87B /* MotionModule.h */,
+				54EE83CB205BA76F00EBD87B /* MotionModule.m */,
+			);
+			path = Sensor;
+			sourceTree = "<group>";
+		};
+		54EE83CD205BA7B800EBD87B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54EE83D0205BA7BE00EBD87B /* CoreLocation.framework */,
+				54EE83CE205BA7B800EBD87B /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54EE83B0205BA4F200EBD87B /* SensorChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54EE83C7205BA4F200EBD87B /* Build configuration list for PBXNativeTarget "SensorChecker" */;
+			buildPhases = (
+				54EE83AD205BA4F200EBD87B /* Sources */,
+				54EE83AE205BA4F200EBD87B /* Frameworks */,
+				54EE83AF205BA4F200EBD87B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SensorChecker;
+			productName = SensorChecker;
+			productReference = 54EE83B1205BA4F200EBD87B /* SensorChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54EE83A9205BA4F200EBD87B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Geotwo;
+				TargetAttributes = {
+					54EE83B0205BA4F200EBD87B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 54EE83AC205BA4F200EBD87B /* Build configuration list for PBXProject "SensorChecker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54EE83A8205BA4F200EBD87B;
+			productRefGroup = 54EE83B2205BA4F200EBD87B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54EE83B0205BA4F200EBD87B /* SensorChecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54EE83AF205BA4F200EBD87B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EE83C1205BA4F200EBD87B /* LaunchScreen.storyboard in Resources */,
+				54EE83BE205BA4F200EBD87B /* Assets.xcassets in Resources */,
+				54EE83BC205BA4F200EBD87B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54EE83AD205BA4F200EBD87B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EE83B9205BA4F200EBD87B /* ViewController.m in Sources */,
+				54EE83CC205BA76F00EBD87B /* MotionModule.m in Sources */,
+				54EE83C4205BA4F200EBD87B /* main.m in Sources */,
+				54EE83B6205BA4F200EBD87B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54EE83BA205BA4F200EBD87B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54EE83BB205BA4F200EBD87B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54EE83BF205BA4F200EBD87B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54EE83C0205BA4F200EBD87B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54EE83C5205BA4F200EBD87B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54EE83C6205BA4F200EBD87B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54EE83C8205BA4F200EBD87B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9L22J8NYJ;
+				INFOPLIST_FILE = SensorChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Geotwo.SensorChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54EE83C9205BA4F200EBD87B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9L22J8NYJ;
+				INFOPLIST_FILE = SensorChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Geotwo.SensorChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54EE83AC205BA4F200EBD87B /* Build configuration list for PBXProject "SensorChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EE83C5205BA4F200EBD87B /* Debug */,
+				54EE83C6205BA4F200EBD87B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54EE83C7205BA4F200EBD87B /* Build configuration list for PBXNativeTarget "SensorChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EE83C8205BA4F200EBD87B /* Debug */,
+				54EE83C9205BA4F200EBD87B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54EE83A9205BA4F200EBD87B /* Project object */;
+}
